@@ -1,0 +1,93 @@
+2025-09-12_22:25:12.764 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-12_22:25:16.034 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-12_22:25:17.855 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 185e6b76-8496-4bfa-afdc-1b6e39961c33
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-09-12_22:26:57.733 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-12_22:27:00.057 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-09-12_22:27:00.067 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - constraint "ukrycw44p7cruupkosx3ibmj9q3" of relation "m_user" does not exist, skipping
+2025-09-12_22:27:00.180 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-09-12_22:27:00.181 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - constraint "ukg3htmq02oxd6h13cjm978n0q9" of relation "m_user" does not exist, skipping
+2025-09-12_22:27:00.238 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2025-09-12_22:27:00.250 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - constraint "ukbrmb54ld0gqstogmb812xw951" of relation "m_user" does not exist, skipping
+2025-09-12_22:27:02.922 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-12_22:27:04.155 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: b8ae5f94-e9a9-45db-8007-c140863760ae
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-09-12_22:33:17.446 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-12_22:33:20.086 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-12_22:33:20.959 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 6eeec885-1f89-4c82-b91b-5515b2331841
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-09-12_22:58:57.761 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-12_22:59:02.081 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-12_22:59:03.016 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 9bac9ddc-b535-404d-ba3e-e212361066f5
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-09-12_23:05:30.847 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-12_23:05:34.508 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-12_23:05:35.544 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 5bd86488-bd47-4a8a-b1f4-1321b39d7f1e
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-09-12_23:12:19.833 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-12_23:12:23.492 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-12_23:12:23.554 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 6ccc4f0e-e10d-4609-a6e6-995df027b005
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-09-12_23:12:28.138 [http-nio-8080-exec-2] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 23502
+2025-09-12_23:12:28.139 [http-nio-8080-exec-2] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: null value in column "created_by" of relation "m_user" violates not-null constraint
+  Detail: Failing row contains (7f2e1a8b-bd6b-4e2e-b7fd-0d948084e85f, null, null, null, null, ilham@example.com, null, ILHAM, null, ADMIN, AKTIF, null, ilham123).
+2025-09-12_23:17:14.671 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-12_23:17:17.648 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-12_23:17:17.716 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 7877788d-9cd0-4bd4-849f-baf8edbed2bf
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-09-12_23:28:21.178 [http-nio-8080-exec-1] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 23502
+2025-09-12_23:28:21.179 [http-nio-8080-exec-1] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: null value in column "created_by" of relation "m_user" violates not-null constraint
+  Detail: Failing row contains (61220716-95ca-4ad8-ac65-05e831cf6c82, null, null, null, null, ilham@example.com, null, ILHAM, null, ADMIN, AKTIF, null, ilham123).
+2025-09-12_23:30:07.353 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-12_23:30:10.215 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-12_23:30:10.273 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 7d57393f-b6aa-40f0-baed-31890dc1d6ce
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-09-12_23:30:17.593 [http-nio-8080-exec-1] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 23502
+2025-09-12_23:30:17.595 [http-nio-8080-exec-1] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: null value in column "created_by" of relation "m_user" violates not-null constraint
+  Detail: Failing row contains (d4c3a0cf-ab68-47f2-b84b-2cb31553e303, null, null, null, null, ilham@example.com, null, ILHAM, null, ADMIN, AKTIF, null, ilham123).
+2025-09-12_23:30:19.537 [http-nio-8080-exec-3] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 23502
+2025-09-12_23:30:19.538 [http-nio-8080-exec-3] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: null value in column "created_by" of relation "m_user" violates not-null constraint
+  Detail: Failing row contains (d4a3c6a1-d4c9-44a8-b222-4e90226fdfaf, null, null, null, null, ilham@example.com, null, ILHAM, null, ADMIN, AKTIF, null, ilham123).
+2025-09-12_23:32:14.140 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-12_23:32:17.013 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-12_23:32:17.076 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: c24f0a7f-bf9e-4184-a2a2-db8d08a5dd8b
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-09-12_23:32:23.447 [http-nio-8080-exec-2] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 23502
+2025-09-12_23:32:23.447 [http-nio-8080-exec-2] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: null value in column "password" of relation "m_user" violates not-null constraint
+  Detail: Failing row contains (2137bdf5-7078-472e-b28c-014dd59c2bce, system, 2025-09-12 16:32:23.337911+00, 2025-09-12 16:32:23.337911+00, system, ilham@example.com, null, ILHAM, null, ADMIN, AKTIF, null, ilham123).
