@@ -16,7 +16,7 @@ public class OrderController {
 
     private final OrderService orderService;
 
-    @PostMapping("buat")
+    @PostMapping("create")
     @PreAuthorize("hasRole('PEMBELI')")
     public BaseResponse<?> buatPesanan(@RequestBody OrderRequestRecord request,
                                        @AuthenticationPrincipal UserLoggedInConfig userLoggedIn) {
