@@ -28,6 +28,25 @@ Aplikasi ini sudah mendukung **JWT Authentication** untuk proses login, dilengka
 * **Swagger UI**:
   [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)
 
+### User Akses untuk Testing
+
+Aplikasi sudah menyediakan akun default untuk setiap role, yang bisa digunakan saat uji coba:
+
+**Admin, Penjual, dan Pembeli**
+```json
+{
+  "username": "admin",
+  "password": "admin123"
+}
+{
+  "username": "penjual",
+  "password": "penjual123"
+}
+{
+  "username": "pembeli",
+  "password": "pembeli123"
+}
+```
 ---
 
 ## Flowchart Sistem
