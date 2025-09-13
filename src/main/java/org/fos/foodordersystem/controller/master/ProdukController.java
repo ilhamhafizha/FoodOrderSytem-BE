@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("produk")
 @RequiredArgsConstructor
-@Tag(name = "Produk API")
+@Tag(name = "Produk by Penjual")
 public class ProdukController {
 
     private final ProdukService produkService;

@@ -1,5 +1,6 @@
 package org.fos.foodordersystem.controller.app;
 
+import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
 import org.fos.foodordersystem.config.UserLoggedInConfig;
 import org.fos.foodordersystem.model.response.BaseResponse;
@@ -11,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("auth")
 @RequiredArgsConstructor
+@Tag(name = "Auth")
 public class AuthController {
 
     private final AuthService authService;

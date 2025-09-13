@@ -1,5 +1,6 @@
 package org.fos.foodordersystem.controller.transaction;
 
+import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
 import org.fos.foodordersystem.config.UserLoggedInConfig;
 import org.fos.foodordersystem.model.request.OrderRequestRecord;
@@ -12,6 +13,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("order")
 @RequiredArgsConstructor
+@Tag(name = "Order")
 public class OrderController {
 
     private final OrderService orderService;

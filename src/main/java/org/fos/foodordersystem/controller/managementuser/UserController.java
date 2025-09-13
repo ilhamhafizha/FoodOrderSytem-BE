@@ -1,6 +1,7 @@
 package org.fos.foodordersystem.controller.managementuser;
 
 
+import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
 import org.fos.foodordersystem.model.filter.UserFilterRecord;
 import org.fos.foodordersystem.model.request.UserRequestRecord;
@@ -15,6 +16,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("user")
 @RequiredArgsConstructor
+@Tag(name = "User Setting by admin")
 public class UserController {
 
     private final UserService userService;

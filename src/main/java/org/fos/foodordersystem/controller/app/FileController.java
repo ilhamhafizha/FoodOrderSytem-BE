@@ -1,5 +1,6 @@
 package org.fos.foodordersystem.controller.app;
 
+import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -18,6 +19,7 @@ import java.io.IOException;
 @RequestMapping("file")
 @RequiredArgsConstructor
 @Slf4j
+@Tag(name = "Upload File")
 public class FileController {
 
     private final FileService fileService;
