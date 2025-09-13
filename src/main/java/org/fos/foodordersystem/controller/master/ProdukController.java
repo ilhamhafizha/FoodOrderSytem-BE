@@ -55,4 +55,12 @@ public class ProdukController {
         return BaseResponse.ok(null, produkService.findById(id));
     }
 
+    @DeleteMapping("delete/{id}")
+    @PreAuthorize("hasRole('PENJUAL')")
+    public BaseResponse<?> delete(@PathVariable String id) {
+        produkService.delete(id);
+        return BaseResponse.ok("Produk berhasil dihapus", null);
+    }
+
+
 }

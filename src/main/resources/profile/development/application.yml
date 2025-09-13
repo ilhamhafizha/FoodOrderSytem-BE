@@ -27,3 +27,16 @@ spring:
 app:
   upload-directory: fos-uploads
   folder-temp: ./fos-temp/
+
+logging:
+  level:
+   org.fos.foodordersystem: TRACE
+
+springdoc:
+  api-docs:
+    enabled: true
+  swagger-ui:
+    defaultModelsExpandDepth: -1
+    docExpansion: none
+    tagsSorter: alpha
+    operationsSorter: alpha

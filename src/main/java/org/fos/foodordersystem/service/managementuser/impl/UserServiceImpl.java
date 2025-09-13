@@ -1,4 +1,4 @@
-package org.fos.foodordersystem.managementuser.impl;
+package org.fos.foodordersystem.service.managementuser.impl;
 
 
 import lombok.RequiredArgsConstructor;
@@ -15,7 +15,6 @@ import org.fos.foodordersystem.service.managementuser.UserService;
 import org.fos.foodordersystem.util.FilterUtil;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
-import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
@@ -124,6 +123,13 @@ public class UserServiceImpl implements UserService {
         data.put("role", user.getRole().getLabel());
         return data;
     }
+    @Override
+    public void delete(String id) {
+        var user = userRepository.findById(id)
+                .orElseThrow(() -> new RuntimeException("User tidak ditemukan"));
+        userRepository.delete(user);
+    }
+
 
     private void validasiMandatory(UserRequestRecord request) {
         if (request.nama() == null || request.nama().isEmpty()) {
@@ -145,5 +151,6 @@ public class UserServiceImpl implements UserService {
             throw new RuntimeException("Role tidak boleh kosong");
         }
     }
+
 
 }

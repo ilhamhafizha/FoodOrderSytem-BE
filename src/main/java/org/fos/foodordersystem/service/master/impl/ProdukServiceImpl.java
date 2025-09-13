@@ -138,4 +138,12 @@ public class ProdukServiceImpl implements ProdukService {
         return data;
     }
 
+    @Override
+    public void delete(String id) {
+        var produk = produkRepository.findById(id)
+                .orElseThrow(() -> new RuntimeException("Produk tidak ditemukan"));
+        produkRepository.delete(produk);
+    }
+
+
 }

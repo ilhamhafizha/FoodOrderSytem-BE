@@ -16,5 +16,6 @@ public interface ProdukService {
     Page<SimpleMap> findAll(ProdukFilterRecord filterRequest, Pageable pageable);
 
     SimpleMap findById(String id);
+    void delete(String id);
 
 }

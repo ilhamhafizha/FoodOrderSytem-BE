@@ -15,5 +15,6 @@ public interface UserService {
     Page<SimpleMap> findAll(UserFilterRecord filterRequest, Pageable pageable);
 
     SimpleMap findById(String id);
+    void delete(String id);
 
 }
