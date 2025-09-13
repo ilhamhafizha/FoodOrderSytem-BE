@@ -50,8 +50,8 @@ public class Produk extends BaseEntity {
     @Column(nullable = false)
     private Status status;
 
-//    @OneToMany(cascade = CascadeType.ALL, mappedBy = "produk", orphanRemoval = true, fetch = FetchType.LAZY)
-//    @Builder.Default
-//    private Set<ProdukImage> listImage = new HashSet<>();
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "produk", orphanRemoval = true, fetch = FetchType.LAZY)
+    @Builder.Default
+    private Set<ProdukImage> listImage = new HashSet<>();
 
 }

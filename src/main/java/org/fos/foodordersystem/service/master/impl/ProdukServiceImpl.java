@@ -21,8 +21,9 @@ import org.fos.foodordersystem.repository.master.ProdukRepository;
 import org.fos.foodordersystem.service.app.ValidatorService;
 import org.fos.foodordersystem.service.master.ProdukService;
 import org.fos.foodordersystem.util.FilterUtil;
-
-
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.core.userdetails.UserDetails;
+import java.time.LocalDateTime;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -49,12 +50,24 @@ public class ProdukServiceImpl implements ProdukService {
             }
 
             var produk = produkMapper.requestToEntity(request);
+
+            // Ambil username user yang login
+            Object principal = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+            String username = principal instanceof UserDetails ? ((UserDetails) principal).getUsername() : "system";
+
+            produk.setCreatedBy(username);
+            produk.setUpdatedBy(username);
+
+            if (produk.getCreatedDate() == null) produk.setCreatedDate(LocalDateTime.now());
+            if (produk.getModifiedDate() == null) produk.setModifiedDate(LocalDateTime.now());
+
             produkRepository.save(produk);
 
             log.info("Produk {} berhasil ditambahkan", request.nama());
             log.trace("Tambah data produk berhasil dan selesai");
         } catch (Exception e) {
             log.error("Tambah data produk gagal: {}", e.getMessage());
+            throw e; // optional: biar bisa ditangani di controller
         }
     }
 
@@ -100,7 +113,7 @@ public class ProdukServiceImpl implements ProdukService {
             data.put("status", produk.getStatus());
             data.put("createdDate", produk.getCreatedDate());
             data.put("modifiedDate", produk.getModifiedDate());
-//            data.put("listImage", produk.getListImage().stream().map(ProdukImage::getPath).collect(Collectors.toSet()));
+            data.put("listImage", produk.getListImage().stream().map(ProdukImage::getPath).collect(Collectors.toSet()));
             return data;
         }).toList();
 
@@ -120,7 +133,7 @@ public class ProdukServiceImpl implements ProdukService {
         data.put("status", produk.getStatus());
         data.put("createdDate", produk.getCreatedDate());
         data.put("modifiedDate", produk.getModifiedDate());
-//        data.put("listImage", produk.getListImage().stream().map(ProdukImage::getPath).collect(Collectors.toSet()));
+        data.put("listImage", produk.getListImage().stream().map(ProdukImage::getPath).collect(Collectors.toSet()));
         
         return data;
     }
