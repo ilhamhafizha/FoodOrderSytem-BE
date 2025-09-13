@@ -82,7 +82,8 @@ Aplikasi sudah menyediakan akun default untuk setiap role, yang bisa digunakan s
 ## Konfigurasi Database
 
 Aplikasi menggunakan **PostgreSQL** (hosted di Neondb).
-<img width="1123" height="724" alt="image" src="https://github.com/user-attachments/assets/56279fa6-5e43-46b6-970e-f5e2148e9b29" />
+
+<img width="1171" height="765" alt="image" src="https://github.com/user-attachments/assets/5e3c9fc1-fe34-4c37-85f5-61ac259f8567" />
 
 
 ---
