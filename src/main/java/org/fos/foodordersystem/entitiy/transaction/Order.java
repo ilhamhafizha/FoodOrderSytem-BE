@@ -16,7 +16,7 @@ import java.util.Set;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name = "t_order")
+@Table(name = "m_order")
 public class Order extends BaseEntity {
 
     @Id

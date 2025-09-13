@@ -12,7 +12,7 @@ import org.fos.foodordersystem.entitiy.master.Produk;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name = "t_order_item")
+@Table(name = "m_order_item")
 public class OrderItem extends BaseEntity {
 
     @Id
